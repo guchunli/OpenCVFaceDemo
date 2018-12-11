@@ -19,6 +19,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    /*
+     1.Compile Source As:Objective-C++
+     2.添加Accelerate.framework
+     */
+    
+    /*
+     1.pod install
+     2.将 NO 修改为 NO_EXPOSURE_COMPENSATOR = 0
+     */
+    
     UITableView *tab = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
     tab.dataSource = self;
     tab.delegate = self;
